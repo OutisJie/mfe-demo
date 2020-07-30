@@ -4,9 +4,9 @@
   "scripts": {
     "clean": "lerna clean",
     "bs": "lerna bootstrap",
-    "portal:client": "lerna exec --scope @dn-mfe/portal -- yarn run start",
-    "portal:client:build": "lerna exec --scope @dn-mfe/portal -- yarn run build",
-    "portal:server": "lerna exec --scope @dn-mfe/portal-bff -- yarn run start",
+    "assassins:client": "lerna exec --scope @dn-mfe/assassins -- yarn run start",
+    "assassins:client:build": "lerna exec --scope @dn-mfe/assassins -- yarn run build",
+    "assassins:server": "lerna exec --scope @dn-mfe/assassins-bff -- yarn run start",
     "hello": "lerna exec --scope hello -- yarn run start",
     "hello:build": "lerna exec --scope hello -- yarn run build",
     "world": "lerna exec --scope world -- yarn run start",
