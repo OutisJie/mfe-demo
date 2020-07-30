@@ -1,0 +1,10 @@
+.vscode
+node_modules
+.history
+logs
+.cache
+dist
+build
+.nodejs-cache
+.cache
+run
